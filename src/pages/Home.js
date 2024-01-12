@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import LinkedIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
@@ -10,9 +10,9 @@ function Home() {
         <h2> Hi, My name is Robert</h2>
         <div className="prompt"> 
           <p> A software developer with a passion for learning and creating</p>
-          <LinkedInIcon/>
-          <GitHubIcon/>
-          <EmailIcon/> 
+          <a href="https://www.linkedin.com/in/robert-froeschl-921323221/" target="_blank" rel="noopener noreferrer"><LinkedIcon/></a>
+          <a href="https://github.com/Rwfroeschl" target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>
+          <a href="mailto:rwfroeschl@gmail.com" target="_blank" rel="noopener noreferrer"><EmailIcon /></a> 
         </div>
       </div>
       <div className="skills">
@@ -24,11 +24,11 @@ function Home() {
           </li>
           <li className="item">
             <h2> Back-End</h2>
-            <span> WHM, AWS S3, Firebase </span>
+            <span> WHM, AWS Amplify, Firebase, Datadog, Jira</span>
           </li>
           <li className="item">
             <h2> Languages </h2>
-            <span> JavaScript, Python, C++, C, Go</span>
+            <span> JavaScript, Python, C++, C, Go, Swift</span>
           </li>
         </ol>
         </div>

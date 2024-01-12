@@ -9,10 +9,10 @@ function Footer() {
   return ( 
   <div className= "footer">
     <div className="socialMedia"> 
-      <EmailIcon />
-      <InstagramIcon/>
-      <LinkedIcon />
-      <FacebookIcon />
+      <a href="mailto:rwfroeschl@gmail.com" target="_blank" rel="noopener noreferrer"><EmailIcon /></a>
+      <a href="https://www.instagram.com/bobbyfroeschl/" target="_blank" rel="noopener noreferrer"><InstagramIcon/></a>
+      <a href="https://www.linkedin.com/in/robert-froeschl-921323221/" target="_blank" rel="noopener noreferrer"><LinkedIcon /></a>
+      <a href="https://www.facebook.com/profile.php?id=100005642899041" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
     </div>
     <p> &copy; 2024 rwfroeschl.github.io</p>
      </div>
