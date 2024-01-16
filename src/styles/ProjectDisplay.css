@@ -23,7 +23,14 @@
     border-radius: 10px;
     object-fit: cover; /* to ensure it covers the area */
   }
-  
+  .project video {
+    width: auto; /* relative to the parent container */
+    max-width: 500px; /* max width for large screens */
+    height: auto; /* maintain aspect ratio */
+    max-height: 500px; /* max height for large screens */
+    border-radius: 10px;
+    object-fit: cover; /* to ensure it covers the area */
+  }
   .project p {
     font-size: 2vw; /* responsive font size */
     color: #3e497a;

@@ -10,7 +10,11 @@ function ProjectDisplay() {
     return (
     <div className="project">
         <h1> {project.name}</h1>
-        <img src={project.image} />
+        {project.video ? (
+            <video src={project.video} controls />
+        ) : (
+            <img src={project.image} />
+        )}
         <p><b>Skills:</b> {project.skill}</p>
         <a href={project.link} target="_blank" rel="noopener noreferrer"><GithubIcon /></a>
 
