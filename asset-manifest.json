@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.895d0b55.css",
-    "main.js": "/static/js/main.e3851036.js",
+    "main.css": "/static/css/main.c1bcfb60.css",
+    "main.js": "/static/js/main.01e78402.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/upark-video.mp4": "/static/media/upark-video.f4f4a10bc314cd6efad8.mp4",
     "static/media/weatherApp-home.png": "/static/media/weatherApp-home.22edbb6994cefce8b8d2.png",
+    "static/media/redbag.png": "/static/media/redbag.54d806cdc379a3ce1afe.png",
     "static/media/IOSapp-home.jpeg": "/static/media/IOSapp-home.6c189dd277454c42afe1.jpeg",
     "index.html": "/index.html",
-    "main.895d0b55.css.map": "/static/css/main.895d0b55.css.map",
-    "main.e3851036.js.map": "/static/js/main.e3851036.js.map",
+    "main.c1bcfb60.css.map": "/static/css/main.c1bcfb60.css.map",
+    "main.01e78402.js.map": "/static/js/main.01e78402.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.895d0b55.css",
-    "static/js/main.e3851036.js"
+    "static/css/main.c1bcfb60.css",
+    "static/js/main.01e78402.js"
   ]
 }
