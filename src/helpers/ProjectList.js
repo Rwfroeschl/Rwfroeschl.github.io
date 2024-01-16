@@ -1,8 +1,8 @@
-import WeatherApp from "../assets/weatherApp-home.png";
-import IOSapp from "../assets/IOSapp-home.jpeg";
-import RedBag from "../assets/redbag.png";
-//import upark from "../assets/upark-video.mp4";
-import IOS from "../assets/IOSapp-fact.jpeg";
+import WeatherApp from "../assets/images/weatherApp-home.png";
+import IOSapp from "../assets/images/IOSapp-home.jpeg";
+import RedBag from "../assets/images/redbag.png";
+import upark from "../assets/videos/upark-video.mp4";
+
 
 export const ProjectList = [
     {
@@ -25,7 +25,7 @@ export const ProjectList = [
     },
     {
         name: "Parking App",
-        image: IOS,
+        video: upark,
         skill: "Flutter, Firebase, Google Maps API, dart, full-stack development, error handling, sprint planning",
         link: ""
     }
