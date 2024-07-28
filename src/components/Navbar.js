@@ -7,11 +7,17 @@ function Navbar() {
 
     const [expandNavbar, setExpandNavbar] = useState(false);
     const location = useLocation();
-
+    // close the navbar when the location changes
     useEffect(() => {
         setExpandNavbar(false);
     }, [location]);
-
+    // getting the navbar height if there is a navbar
+    useEffect(() => {
+        const navbarElement = document.getElementById("navbar");
+        if (navbarElement) {
+            document.documentElement.style.setProperty('--nav-height', `${navbarElement.offsetHeight}px`);
+        }
+    }, []);
 
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}> 

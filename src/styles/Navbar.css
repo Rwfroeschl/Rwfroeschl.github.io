@@ -1,7 +1,10 @@
 .navbar {
+    position: flex;
+    top: 0;
     width: 100%;
     height: 100px;
     background: #21325e;
+    z-index: 1;
 }
 
 .links{

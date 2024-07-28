@@ -20,20 +20,6 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className="vertical-timeline-element--work"
-          date="July 2023 - Present"
-          iconStyle={{background: "#e9d35b", color: "#fff"}}
-          icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title"> 
-              Front-End Student Web Developer - KU Information Technology
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Lawrence, Kansas
-            </h4>
-            <p> Develope and update UI for all webpages associated with the University of Kansas </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement 
-          className="vertical-timeline-element--work"
           date="June 2023 - May 2023"
           iconStyle={{background: "#e9d35b", color: "#fff"}}
           icon={<WorkIcon />}
@@ -63,6 +49,20 @@ function Experience() {
                 <br/> 
                 Cyber Security Certificate
             </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className="vertical-timeline-element--work"
+          date="July 2022 - June 2024"
+          iconStyle={{background: "#e9d35b", color: "#fff"}}
+          icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title"> 
+              Front-End Student Web Developer - KU Information Technology
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Lawrence, Kansas
+            </h4>
+            <p> Develope and update UI for all webpages associated with the University of Kansas </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

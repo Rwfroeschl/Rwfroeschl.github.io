@@ -1,21 +1,35 @@
 .project {
-    width: 100%;
-    height: calc(100vh - 100px);
-    margin: auto; /* to center the project section */
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box; /* to include padding and border in the width and height */
+    position: relative;
+
 
   }
-  
+  :root {
+    --nav-height: 70px;
+  }
   .project h1 {
-    margin-top: 140px;
+    margin-top: var(--nav-height);
     color: #3e497a;
     font-size: 35px;
+    text-align: center;
   }
   
-  .project img {
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .project video, .project img {
     width: auto; /* relative to the parent container */
     max-width: 500px; /* max width for large screens */
     height: auto; /* maintain aspect ratio */
@@ -23,13 +37,9 @@
     border-radius: 10px;
     object-fit: cover; /* to ensure it covers the area */
   }
-  .project video {
-    width: auto; /* relative to the parent container */
-    max-width: 500px; /* max width for large screens */
-    height: auto; /* maintain aspect ratio */
-    max-height: 500px; /* max height for large screens */
-    border-radius: 10px;
-    object-fit: cover; /* to ensure it covers the area */
+  .project-description {
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .project p {
     font-size: 2vw; /* responsive font size */
@@ -38,11 +48,17 @@
   }
   
   .project svg {
+    margin-top: 20px;
     font-size: 3vw; /* responsive font size */
     color: #3e497a;
   }
-  
-  /* Example Media Query */
+
+
+  @media (max-width: 1200px) {
+    .image-gallery {
+        grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    }
+  }
   @media (max-width: 768px) {
     .project h1 {
       font-size: 6vw;
@@ -56,8 +72,11 @@
       font-size: 8vw;
     }
   
-    .project img {
+    .project img, .project video {
       width: 90%; /* make the image larger on smaller screens */
     }
+    .image-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Revert to single column layout */
+  }
   }
   
