@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d78840ca.css",
-    "main.js": "/static/js/main.bf022273.js",
+    "main.css": "/static/css/main.ed99ebad.css",
+    "main.js": "/static/js/main.c779f72a.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/upark-video.mp4": "/static/media/upark-video.f4f4a10bc314cd6efad8.mp4",
+    "static/media/upark-final-edited.mov": "/static/media/upark-final-edited.12278ca3a54220d3b65f.mov",
+    "static/media/weatherApp-example.png": "/static/media/weatherApp-example.40514b08dcabbde80585.png",
     "static/media/weatherApp-home.png": "/static/media/weatherApp-home.22edbb6994cefce8b8d2.png",
+    "static/media/Server-FinalTest.png": "/static/media/Server-FinalTest.510a1a2bff2f36a9c78d.png",
     "static/media/uparkThumbnail.png": "/static/media/uparkThumbnail.12b06fc13f8d18c436ea.png",
     "static/media/redbag.png": "/static/media/redbag.54d806cdc379a3ce1afe.png",
     "static/media/IOSapp-home.jpeg": "/static/media/IOSapp-home.6c189dd277454c42afe1.jpeg",
+    "static/media/IOSapp-joke.jpeg": "/static/media/IOSapp-joke.708de9fc0e1519063f11.jpeg",
+    "static/media/IOSapp-riddle.jpeg": "/static/media/IOSapp-riddle.805f0c56c40d28609f61.jpeg",
+    "static/media/IOSapp-fact.jpeg": "/static/media/IOSapp-fact.c68fdaeda63d6b6166fc.jpeg",
     "index.html": "/index.html",
-    "main.d78840ca.css.map": "/static/css/main.d78840ca.css.map",
-    "main.bf022273.js.map": "/static/js/main.bf022273.js.map",
+    "main.ed99ebad.css.map": "/static/css/main.ed99ebad.css.map",
+    "main.c779f72a.js.map": "/static/js/main.c779f72a.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d78840ca.css",
-    "static/js/main.bf022273.js"
+    "static/css/main.ed99ebad.css",
+    "static/js/main.c779f72a.js"
   ]
 }
